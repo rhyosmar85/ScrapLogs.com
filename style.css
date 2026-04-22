@@ -406,3 +406,362 @@ a { color: inherit; text-decoration: none; }
   .contact-card { padding: 1.4rem; }
   .footer-wrap { flex-direction: column; align-items: flex-start; }
 }
+
+/* ============================================================
+   NEW SECTIONS
+   ============================================================ */
+
+/* --- Risk Banner --- */
+.risk-banner {
+  background: linear-gradient(135deg, #1a0505 0%, #2a0808 50%, #1e1010 100%);
+  border-top: 4px solid #dc2626;
+  border-bottom: 4px solid #dc2626;
+  padding: 2.5rem 0;
+}
+.risk-banner-inner {
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  border-radius: 16px;
+  padding: 2rem 2.25rem;
+  background: rgba(220, 38, 38, 0.04);
+}
+.risk-label {
+  display: inline-block;
+  background: #dc2626;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 1.25rem;
+}
+.risk-stat {
+  color: #f3f4f6;
+  font-size: 1.05rem;
+  margin: 0 0 0.75rem;
+  line-height: 1.65;
+}
+.risk-stat strong { color: #fca5a5; }
+.risk-fine {
+  margin-top: 1.25rem;
+  padding: 0.75rem 1rem;
+  background: rgba(220, 38, 38, 0.12);
+  border: 1px solid rgba(220, 38, 38, 0.35);
+  border-radius: 8px;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.risk-fine-label {
+  color: #fca5a5;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.risk-fine-amount {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* --- Compliance Shield --- */
+.compliance-shield {
+  background: #0d1117;
+  padding: 5rem 0;
+}
+.green-eyebrow { color: #22c55e !important; }
+.light-heading { color: #fff !important; }
+.shield-subtitle {
+  color: #9ca3af;
+  font-size: 1.05rem;
+  max-width: 46rem;
+  margin: 0.75rem 0 0;
+}
+.compliance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+.compliance-card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 1.4rem;
+  transition: border-color 180ms ease;
+}
+.compliance-card:hover { border-color: #22c55e; }
+.statute-badge {
+  display: inline-block;
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  margin-bottom: 0.65rem;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+.compliance-card h3 {
+  color: #f9fafb;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0 0 0.45rem;
+  letter-spacing: -0.02em;
+}
+.compliance-card p {
+  color: #9ca3af;
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.55;
+}
+.shield-footer-note {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.82rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #1f2937;
+  letter-spacing: 0.02em;
+}
+
+/* --- Audit Scenario --- */
+.audit-scenario {
+  background: #15171d;
+  padding: 5rem 0;
+}
+.audit-scenario .eyebrow { color: #ffab8e; }
+.audit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+.audit-col { border-radius: 20px; overflow: hidden; }
+.audit-col-header {
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.audit-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 0.72rem;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+.audit-indicator-bad { background: #dc2626; color: #fff; }
+.audit-indicator-good { background: #22c55e; color: #fff; }
+.audit-bad .audit-col-header { background: #3b0a0a; color: #fca5a5; }
+.audit-good .audit-col-header { background: #052e16; color: #86efac; }
+.audit-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-top: none;
+  border-radius: 0 0 20px 20px;
+}
+.audit-list li {
+  padding: 0.85rem 1.25rem;
+  color: #d1d5db;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+.audit-bad-final {
+  color: #fca5a5 !important;
+  font-weight: 700;
+  background: rgba(220, 38, 38, 0.08);
+}
+.audit-good-final {
+  color: #86efac !important;
+  font-weight: 700;
+  background: rgba(34, 197, 94, 0.08);
+}
+.audit-cta {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+/* --- Data Security --- */
+.data-security {
+  background: #0d1117;
+  padding: 5rem 0;
+}
+.security-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+.security-tile {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+.security-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: #22c55e;
+}
+.security-tile h3 {
+  color: #f9fafb;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+.security-tile p {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* --- Social Proof --- */
+.social-proof {
+  background: #f7f8f6;
+  padding: 5rem 0;
+}
+.centered-heading { text-align: center; }
+.centered-heading h2 { max-width: none !important; }
+.testimonial-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.testimonial-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 2.25rem 2.5rem;
+  max-width: 640px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.testimonial-quote {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--ink);
+  font-style: italic;
+  margin: 0 0 1.25rem;
+}
+.testimonial-attribution {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* --- Footer updates --- */
+.footer-left p { margin: 0 0 0.5rem; }
+.footer-links {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+.footer-links a { color: #9ca3af; font-size: 0.82rem; font-weight: 500; }
+.footer-links a:hover { color: #fff; }
+.footer-compliance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+  text-align: right;
+}
+.footer-badge {
+  display: inline-block;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  border-radius: 5px;
+  padding: 0.22rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #22c55e;
+  letter-spacing: 0.04em;
+}
+.footer-badge-sub {
+  font-size: 0.72rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
+.footer-fipa {
+  font-size: 0.68rem;
+  color: #6b7280;
+  max-width: 300px;
+  line-height: 1.45;
+  margin: 0.2rem 0 0;
+}
+
+/* --- Legal pages --- */
+.legal-page { background: #f7f8f6; min-height: 100vh; }
+.legal-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 4rem 1rem 5rem;
+}
+.legal-content h1 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  margin: 0 0 0.4rem;
+}
+.legal-date {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0 0 2.5rem;
+}
+.legal-content h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 2rem 0 0.6rem;
+  letter-spacing: -0.02em;
+  border-top: 1px solid var(--line);
+  padding-top: 1.5rem;
+}
+.legal-content p,
+.legal-content li {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.legal-content ul { padding-left: 1.25rem; }
+.legal-content a { color: var(--orange); text-decoration: underline; }
+
+/* --- Additional responsive --- */
+@media (max-width: 980px) {
+  .compliance-grid { grid-template-columns: repeat(2, 1fr); }
+  .security-grid { grid-template-columns: repeat(2, 1fr); }
+  .audit-grid { grid-template-columns: 1fr; }
+  .footer-wrap { flex-direction: column; align-items: flex-start; }
+  .footer-compliance { align-items: flex-start; text-align: left; }
+  .footer-fipa { max-width: none; }
+}
+
+@media (max-width: 720px) {
+  .compliance-grid { grid-template-columns: 1fr; }
+  .security-grid { grid-template-columns: 1fr; }
+  .testimonial-card { padding: 1.5rem; }
+  .risk-banner-inner { padding: 1.5rem; }
+}
