@@ -18,10 +18,15 @@
     <div class="container nav-wrap">
       <div class="brand">ScrapLogs</div>
       <nav class="nav">
-        <a href="#features">Features</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact">Contact</a>
+        <a href="#features" data-i18n="nav-features">Features</a>
+        <a href="#pricing" data-i18n="nav-pricing">Pricing</a>
+        <a href="#contact" data-i18n="nav-contact">Contact</a>
       </nav>
+      <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+        <span class="lang-opt active" id="lang-en">EN</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-opt" id="lang-es">ES</span>
+      </button>
     </div>
   </header>
 
@@ -30,33 +35,33 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow">Every purchase. On record.</p>
-          <h1>Is your scrap yard fully protected?</h1>
-          <p class="hero-copy">
+          <p class="eyebrow" data-i18n="hero-eyebrow">Every purchase. On record.</p>
+          <h1 data-i18n="hero-h1">Is your scrap yard fully protected?</h1>
+          <p class="hero-copy" data-i18n="hero-copy">
             Modern compliance management for Florida scrap yards - cloud-based,
             always on, and built to keep you ahead of regulators.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Book a demo</a>
-            <a class="btn btn-secondary" href="#pricing">See pricing</a>
+            <a class="btn btn-primary" href="#contact" data-i18n="hero-btn-demo">Book a demo</a>
+            <a class="btn btn-secondary" href="#pricing" data-i18n="hero-btn-pricing">See pricing</a>
           </div>
         </div>
 
         <div class="hero-card">
-          <p class="card-kicker">One plan. Everything included.</p>
+          <p class="card-kicker" data-i18n="card-kicker">One plan. Everything included.</p>
           <div class="price-line">
             <span class="price">$599</span>
-            <span class="per">/mo</span>
+            <span class="per" data-i18n="per-mo">/mo</span>
           </div>
-          <p class="subline">No contract • Cancel anytime</p>
+          <p class="subline" data-i18n="card-subline">No contract • Cancel anytime</p>
           <ul class="hero-list">
-            <li>Unlimited users</li>
-            <li>Unlimited tickets</li>
-            <li>Unlimited customers</li>
-            <li>FL compliance engine</li>
-            <li>99.9% SLA</li>
-            <li>Hardware integrations</li>
-            <li>Priority support</li>
+            <li data-i18n="card-li-1">Unlimited users</li>
+            <li data-i18n="card-li-2">Unlimited tickets</li>
+            <li data-i18n="card-li-3">Unlimited customers</li>
+            <li data-i18n="card-li-4">FL compliance engine</li>
+            <li data-i18n="card-li-5">99.9% SLA</li>
+            <li data-i18n="card-li-6">Hardware integrations</li>
+            <li data-i18n="card-li-7">Priority support</li>
           </ul>
         </div>
       </div>
@@ -66,13 +71,13 @@
     <section class="risk-banner">
       <div class="container">
         <div class="risk-banner-inner">
-          <span class="risk-label">Florida Law — FL Chapter 538</span>
-          <p class="risk-stat">Florida law requires every scrap yard to submit a transaction report to local law enforcement by <strong>10AM the next business day.</strong></p>
-          <p class="risk-stat">A single missed report = <strong>fines per occurrence.</strong> Missing seller records = <strong>forced closure.</strong></p>
-          <p class="risk-stat">ScrapLogs automates every deadline automatically — so you <strong>never face an audit unprepared.</strong></p>
+          <span class="risk-label" data-i18n="risk-label">Florida Law — FL Chapter 538</span>
+          <p class="risk-stat" data-i18n-html="risk-stat-1">Florida law requires every scrap yard to submit a transaction report to local law enforcement by <strong>10AM the next business day.</strong></p>
+          <p class="risk-stat" data-i18n-html="risk-stat-2">A single missed report = <strong>fines per occurrence.</strong> Missing seller records = <strong>forced closure.</strong></p>
+          <p class="risk-stat" data-i18n-html="risk-stat-3">ScrapLogs automates every deadline automatically — so you <strong>never face an audit unprepared.</strong></p>
           <div class="risk-fine">
-            <span class="risk-fine-label">Fine exposure:</span>
-            <span class="risk-fine-amount">$1,000/day — up to $500,000 per breach (FL FIPA)</span>
+            <span class="risk-fine-label" data-i18n="risk-fine-label">Fine exposure:</span>
+            <span class="risk-fine-amount" data-i18n="risk-fine-amount">$1,000/day — up to $500,000 per breach (FL FIPA)</span>
           </div>
         </div>
       </div>
@@ -82,70 +87,70 @@
     <section class="compliance-shield">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow green-eyebrow">FL Chapter 538 — Built In</p>
-          <h2 class="light-heading">11 Rules. Automatically Enforced. Zero Manual Work.</h2>
-          <p class="shield-subtitle">Every FL Chapter 538 requirement built into the workflow — not a checklist you manage yourself.</p>
+          <p class="eyebrow green-eyebrow" data-i18n="shield-eyebrow">FL Chapter 538 — Built In</p>
+          <h2 class="light-heading" data-i18n="shield-h2">11 Rules. Automatically Enforced. Zero Manual Work.</h2>
+          <p class="shield-subtitle" data-i18n="shield-subtitle">Every FL Chapter 538 requirement built into the workflow — not a checklist you manage yourself.</p>
         </div>
 
         <div class="compliance-grid">
           <div class="compliance-card">
             <span class="statute-badge">FL §538.09</span>
-            <h3>Record Retention</h3>
-            <p>All transaction records retained for 3 years automatically. Never manually archived or deleted.</p>
+            <h3 data-i18n="cc-1-h3">Record Retention</h3>
+            <p data-i18n="cc-1-p">All transaction records retained for 3 years automatically. Never manually archived or deleted.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538.19(1)</span>
-            <h3>Electronic Report to Law Enforcement</h3>
-            <p>Daily LE report auto-generated at 6AM. Transmitted before 10AM deadline. Price data excluded from LE version per statute.</p>
+            <h3 data-i18n="cc-2-h3">Electronic Report to Law Enforcement</h3>
+            <p data-i18n="cc-2-p">Daily LE report auto-generated at 6AM. Transmitted before 10AM deadline. Price data excluded from LE version per statute.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538.19(2)(h)(4)</span>
-            <h3>Vehicle &amp; Trailer Tag Required</h3>
-            <p>Vehicle make, model, license plate AND trailer tag captured on every ticket. Both fields required.</p>
+            <h3 data-i18n="cc-3-h3">Vehicle &amp; Trailer Tag Required</h3>
+            <p data-i18n="cc-3-p">Vehicle make, model, license plate AND trailer tag captured on every ticket. Both fields required.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538.23(3)</span>
-            <h3>Hold Period Enforcement</h3>
-            <p>Restricted materials held automatically. Payment release blocked until hold clears. Copper: 7 days. Catalytic converters: 7 days. AC coils: 7 days. Utility wire: 5 days.</p>
+            <h3 data-i18n="cc-4-h3">Hold Period Enforcement</h3>
+            <p data-i18n="cc-4-p">Restricted materials held automatically. Payment release blocked until hold clears. Copper: 7 days. Catalytic converters: 7 days. AC coils: 7 days. Utility wire: 5 days.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538.235(1)</span>
-            <h3>Cash Payment Cap ($1,000)</h3>
-            <p>Cash transactions over $1,000 are automatically blocked. System enforces check or ACH with statute error message.</p>
+            <h3 data-i18n="cc-5-h3">Cash Payment Cap ($1,000)</h3>
+            <p data-i18n="cc-5-p">Cash transactions over $1,000 are automatically blocked. System enforces check or ACH with statute error message.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538.235(2)</span>
-            <h3>Check Must Be Mailed to Street Address</h3>
-            <p>Restricted material payments by check trigger mandatory mail enforcement. PO Box addresses are rejected by the system.</p>
+            <h3 data-i18n="cc-6-h3">Check Must Be Mailed to Street Address</h3>
+            <p data-i18n="cc-6-p">Restricted material payments by check trigger mandatory mail enforcement. PO Box addresses are rejected by the system.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538.26(5)</span>
-            <h3>Proof of Ownership for Restricted Metals</h3>
-            <p>Proof of ownership or authorization required before any restricted metal can be added to a ticket. 90-day validation enforced server-side for authorization letters.</p>
+            <h3 data-i18n="cc-7-h3">Proof of Ownership for Restricted Metals</h3>
+            <p data-i18n="cc-7-p">Proof of ownership or authorization required before any restricted metal can be added to a ticket. 90-day validation enforced server-side for authorization letters.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538</span>
-            <h3>Purchasing Hours (7AM–7PM)</h3>
-            <p>Ticket creation is blocked outside 7AM–7PM. System returns statute reference on rejection.</p>
+            <h3 data-i18n="cc-8-h3">Purchasing Hours (7AM–7PM)</h3>
+            <p data-i18n="cc-8-p">Ticket creation is blocked outside 7AM–7PM. System returns statute reference on rejection.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538</span>
-            <h3>Seller Must Be 18 or Older</h3>
-            <p>Age validated from date of birth at customer creation. Ticket open blocked for minors with statute reference.</p>
+            <h3 data-i18n="cc-9-h3">Seller Must Be 18 or Older</h3>
+            <p data-i18n="cc-9-p">Age validated from date of birth at customer creation. Ticket open blocked for minors with statute reference.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538</span>
-            <h3>Seller Identification (4 Required Captures)</h3>
-            <p>ID scan, seller photo, fingerprint, and signed sworn statement all required. Ticket cannot be closed until all four are captured.</p>
+            <h3 data-i18n="cc-10-h3">Seller Identification (4 Required Captures)</h3>
+            <p data-i18n="cc-10-p">ID scan, seller photo, fingerprint, and signed sworn statement all required. Ticket cannot be closed until all four are captured.</p>
           </div>
           <div class="compliance-card">
             <span class="statute-badge">FL §538</span>
-            <h3>Distinguishing Features Required</h3>
-            <p>Physical description of seller is a required field. Customer record cannot be created without it.</p>
+            <h3 data-i18n="cc-11-h3">Distinguishing Features Required</h3>
+            <p data-i18n="cc-11-p">Physical description of seller is a required field. Customer record cannot be created without it.</p>
           </div>
         </div>
 
-        <p class="shield-footer-note">11 rules across 7 statute sections. All enforced server-side. No client-only workarounds.</p>
+        <p class="shield-footer-note" data-i18n="shield-footer">11 rules across 7 statute sections. All enforced server-side. No client-only workarounds.</p>
       </div>
     </section>
 
@@ -153,43 +158,43 @@
     <section class="audit-scenario">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow">The Audit Test</p>
-          <h2 class="light-heading">What Happens When Law Enforcement Walks In?</h2>
+          <p class="eyebrow" data-i18n="audit-eyebrow">The Audit Test</p>
+          <h2 class="light-heading" data-i18n="audit-h2">What Happens When Law Enforcement Walks In?</h2>
         </div>
 
         <div class="audit-grid">
           <div class="audit-col audit-bad">
             <div class="audit-col-header">
               <span class="audit-indicator audit-indicator-bad">✕</span>
-              Without ScrapLogs
+              <span data-i18n="audit-bad-header">Without ScrapLogs</span>
             </div>
             <ul class="audit-list">
-              <li>Officer requests records from 60 days ago</li>
-              <li>Owner digs through paper binders and handwritten tickets</li>
-              <li>Two tickets missing thumbprints</li>
-              <li>One report filed 3 days late</li>
-              <li>Price paid visible on law enforcement copy (statute violation)</li>
-              <li class="audit-bad-final">$1,000/day fine exposure begins immediately</li>
+              <li data-i18n="audit-bad-li-1">Officer requests records from 60 days ago</li>
+              <li data-i18n="audit-bad-li-2">Owner digs through paper binders and handwritten tickets</li>
+              <li data-i18n="audit-bad-li-3">Two tickets missing thumbprints</li>
+              <li data-i18n="audit-bad-li-4">One report filed 3 days late</li>
+              <li data-i18n="audit-bad-li-5">Price paid visible on law enforcement copy (statute violation)</li>
+              <li class="audit-bad-final" data-i18n="audit-bad-final">$1,000/day fine exposure begins immediately</li>
             </ul>
           </div>
           <div class="audit-col audit-good">
             <div class="audit-col-header">
               <span class="audit-indicator audit-indicator-good">✓</span>
-              With ScrapLogs
+              <span data-i18n="audit-good-header">With ScrapLogs</span>
             </div>
             <ul class="audit-list">
-              <li>Officer requests records from 60 days ago</li>
-              <li>Admin pulls audit dashboard, filters by date range in seconds</li>
-              <li>Every record: ID scan, photo, fingerprint, signature, sworn statement</li>
-              <li>All reports auto-submitted before 10AM — zero late filings</li>
-              <li>LE export automatically excludes price per FL §538.19(1)</li>
-              <li class="audit-good-final">Zero violations. Zero exposure.</li>
+              <li data-i18n="audit-good-li-1">Officer requests records from 60 days ago</li>
+              <li data-i18n="audit-good-li-2">Admin pulls audit dashboard, filters by date range in seconds</li>
+              <li data-i18n="audit-good-li-3">Every record: ID scan, photo, fingerprint, signature, sworn statement</li>
+              <li data-i18n="audit-good-li-4">All reports auto-submitted before 10AM — zero late filings</li>
+              <li data-i18n="audit-good-li-5">LE export automatically excludes price per FL §538.19(1)</li>
+              <li class="audit-good-final" data-i18n="audit-good-final">Zero violations. Zero exposure.</li>
             </ul>
           </div>
         </div>
 
         <div class="audit-cta">
-          <a class="btn btn-primary" href="#contact">See ScrapLogs in action → Book a Demo</a>
+          <a class="btn btn-primary" href="#contact" data-i18n="audit-cta-btn">See ScrapLogs in action → Book a Demo</a>
         </div>
       </div>
     </section>
@@ -198,9 +203,9 @@
     <section class="data-security">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow green-eyebrow">Enterprise Infrastructure</p>
-          <h2 class="light-heading">Your Data. Your Vault. Nobody Else's.</h2>
-          <p class="shield-subtitle">ScrapLogs is built on enterprise infrastructure with legal-grade data isolation.</p>
+          <p class="eyebrow green-eyebrow" data-i18n="security-eyebrow">Enterprise Infrastructure</p>
+          <h2 class="light-heading" data-i18n="security-h2">Your Data. Your Vault. Nobody Else's.</h2>
+          <p class="shield-subtitle" data-i18n="security-subtitle">ScrapLogs is built on enterprise infrastructure with legal-grade data isolation.</p>
         </div>
 
         <div class="security-grid">
@@ -212,8 +217,8 @@
                 <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
               </svg>
             </div>
-            <h3>Isolated Database Per Yard</h3>
-            <p>Every ScrapLogs customer gets a completely separate database. Your data is never in a shared table with another yard. Total isolation by design.</p>
+            <h3 data-i18n="sec-1-h3">Isolated Database Per Yard</h3>
+            <p data-i18n="sec-1-p">Every ScrapLogs customer gets a completely separate database. Your data is never in a shared table with another yard. Total isolation by design.</p>
           </div>
           <div class="security-tile">
             <div class="security-icon">
@@ -222,8 +227,8 @@
                 <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
               </svg>
             </div>
-            <h3>Encrypted at Rest and In Transit</h3>
-            <p>All PII — driver's licenses, fingerprints, seller photos — encrypted at rest with AES-256. All traffic encrypted with TLS 1.3. No exceptions.</p>
+            <h3 data-i18n="sec-2-h3">Encrypted at Rest and In Transit</h3>
+            <p data-i18n="sec-2-p">All PII — driver's licenses, fingerprints, seller photos — encrypted at rest with AES-256. All traffic encrypted with TLS 1.3. No exceptions.</p>
           </div>
           <div class="security-tile">
             <div class="security-icon">
@@ -231,8 +236,8 @@
                 <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
               </svg>
             </div>
-            <h3>Hosted on Microsoft Azure</h3>
-            <p>Enterprise-grade cloud infrastructure. SOC 2 certified data centers. 99.9% uptime SLA. Automatic backups. No on-premise servers required.</p>
+            <h3 data-i18n="sec-3-h3">Hosted on Microsoft Azure</h3>
+            <p data-i18n="sec-3-p">Enterprise-grade cloud infrastructure. SOC 2 certified data centers. 99.9% uptime SLA. Automatic backups. No on-premise servers required.</p>
           </div>
           <div class="security-tile">
             <div class="security-icon">
@@ -243,8 +248,8 @@
                 <line x1="3" y1="10" x2="21" y2="10"/>
               </svg>
             </div>
-            <h3>3-Year Retention, Built-In</h3>
-            <p>FL §538 requires records retained for 3 years. ScrapLogs enforces this automatically. Records are never deleted within the retention window. Audit-ready on demand.</p>
+            <h3 data-i18n="sec-4-h3">3-Year Retention, Built-In</h3>
+            <p data-i18n="sec-4-p">FL §538 requires records retained for 3 years. ScrapLogs enforces this automatically. Records are never deleted within the retention window. Audit-ready on demand.</p>
           </div>
         </div>
       </div>
@@ -255,13 +260,13 @@
     <section class="social-proof">
       <div class="container">
         <div class="section-heading centered-heading">
-          <p class="eyebrow orange">Customer Stories</p>
-          <h2>Trusted by Florida Scrap Yards</h2>
+          <p class="eyebrow orange" data-i18n="social-eyebrow">Customer Stories</p>
+          <h2 data-i18n="social-h2">Trusted by Florida Scrap Yards</h2>
         </div>
         <div class="testimonial-wrap">
           <div class="testimonial-card">
-            <p class="testimonial-quote">"Before ScrapLogs, I was spending 45 minutes every morning doing compliance reports by hand. Now it's done before I get to the yard."</p>
-            <p class="testimonial-attribution">[Yard owner name] — [City, FL]</p>
+            <p class="testimonial-quote" data-i18n="testimonial-quote">"Before ScrapLogs, I was spending 45 minutes every morning doing compliance reports by hand. Now it's done before I get to the yard."</p>
+            <p class="testimonial-attribution" data-i18n="testimonial-attr">[Yard owner name] — [City, FL]</p>
           </div>
         </div>
       </div>
@@ -271,8 +276,8 @@
     <section class="warning-band">
       <div class="container">
         <div class="warning-box">
-          <h2>Still running your yard on paper?</h2>
-          <p>
+          <h2 data-i18n="warning-h2">Still running your yard on paper?</h2>
+          <p data-i18n="warning-p">
             Handwritten tickets, spreadsheets, and manual logs leave too much room
             for missed records, late reports, pricing errors, and painful audits.
             ScrapLogs gives your team one live system instead of binders,
@@ -286,57 +291,57 @@
     <section id="features" class="section">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow orange">What ScrapLogs delivers</p>
-          <h2>Everything your yard needs in one place</h2>
+          <p class="eyebrow orange" data-i18n="features-eyebrow">What ScrapLogs delivers</p>
+          <h2 data-i18n="features-h2">Everything your yard needs in one place</h2>
         </div>
 
         <div class="feature-panels">
           <article class="panel panel-warm">
-            <h3>Modern control</h3>
-            <p>Replace paper tickets with a digital system built for scale yards. Every transaction is timestamped, searchable, and secure.</p>
+            <h3 data-i18n="panel-1-h3">Modern control</h3>
+            <p data-i18n="panel-1-p">Replace paper tickets with a digital system built for scale yards. Every transaction is timestamped, searchable, and secure.</p>
           </article>
           <article class="panel panel-green">
-            <h3>Full compliance, automatically</h3>
-            <p>Daily compliance reports, hold tracking, and seller verification are handled inside the workflow instead of after the fact.</p>
+            <h3 data-i18n="panel-2-h3">Full compliance, automatically</h3>
+            <p data-i18n="panel-2-p">Daily compliance reports, hold tracking, and seller verification are handled inside the workflow instead of after the fact.</p>
           </article>
           <article class="panel panel-neutral">
-            <h3>Easy management, zero headaches</h3>
-            <p>No servers to maintain. No software to install. Works in the browser on desktop, tablet, or phone.</p>
+            <h3 data-i18n="panel-3-h3">Easy management, zero headaches</h3>
+            <p data-i18n="panel-3-p">No servers to maintain. No software to install. Works in the browser on desktop, tablet, or phone.</p>
           </article>
         </div>
 
         <div class="feature-grid">
           <article class="feature-item">
-            <h3>Digital scale tickets</h3>
-            <p>Open, weigh, close, and void tickets through the full lifecycle.</p>
+            <h3 data-i18n="feat-1-h3">Digital scale tickets</h3>
+            <p data-i18n="feat-1-p">Open, weigh, close, and void tickets through the full lifecycle.</p>
           </article>
           <article class="feature-item">
-            <h3>Automatic price engine</h3>
-            <p>COMEX and LME market-based pricing with manual override and daily refresh.</p>
+            <h3 data-i18n="feat-2-h3">Automatic price engine</h3>
+            <p data-i18n="feat-2-p">COMEX and LME market-based pricing with manual override and daily refresh.</p>
           </article>
           <article class="feature-item">
-            <h3>FL compliance reports</h3>
-            <p>Auto-generated daily reports with deadline awareness and overdue alerts.</p>
+            <h3 data-i18n="feat-3-h3">FL compliance reports</h3>
+            <p data-i18n="feat-3-p">Auto-generated daily reports with deadline awareness and overdue alerts.</p>
           </article>
           <article class="feature-item">
-            <h3>Hold period enforcement</h3>
-            <p>Restricted materials are tracked by material with automatic payment release when holds clear.</p>
+            <h3 data-i18n="feat-4-h3">Hold period enforcement</h3>
+            <p data-i18n="feat-4-p">Restricted materials are tracked by material with automatic payment release when holds clear.</p>
           </article>
           <article class="feature-item">
-            <h3>Seller verification</h3>
-            <p>Driver's license scan, photo capture, fingerprint, ID capture, and signature history.</p>
+            <h3 data-i18n="feat-5-h3">Seller verification</h3>
+            <p data-i18n="feat-5-p">Driver's license scan, photo capture, fingerprint, ID capture, and signature history.</p>
           </article>
           <article class="feature-item">
-            <h3>Cash drawer management</h3>
-            <p>Handle open and close sessions, reconciliation, cash payments, and checks.</p>
+            <h3 data-i18n="feat-6-h3">Cash drawer management</h3>
+            <p data-i18n="feat-6-p">Handle open and close sessions, reconciliation, cash payments, and checks.</p>
           </article>
           <article class="feature-item">
-            <h3>Hardware integrations</h3>
-            <p>Supports scale, camera, driver's license scanner, fingerprint reader, and ESC/POS printers.</p>
+            <h3 data-i18n="feat-7-h3">Hardware integrations</h3>
+            <p data-i18n="feat-7-p">Supports scale, camera, driver's license scanner, fingerprint reader, and ESC/POS printers.</p>
           </article>
           <article class="feature-item">
-            <h3>Reporting and analytics</h3>
-            <p>Track daily reports, commodity performance, and top customer activity.</p>
+            <h3 data-i18n="feat-8-h3">Reporting and analytics</h3>
+            <p data-i18n="feat-8-p">Track daily reports, commodity performance, and top customer activity.</p>
           </article>
         </div>
       </div>
@@ -346,29 +351,29 @@
     <section class="section contrast-section">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow">The difference is immediate</p>
-          <h2>Stop patching operations together</h2>
+          <p class="eyebrow" data-i18n="comp-eyebrow">The difference is immediate</p>
+          <h2 data-i18n="comp-h2">Stop patching operations together</h2>
         </div>
 
         <div class="comparison-grid">
           <div class="comparison-col bad">
-            <div class="comparison-title">Without ScrapLogs</div>
+            <div class="comparison-title" data-i18n="comp-bad-title">Without ScrapLogs</div>
             <ul>
-              <li>Handwritten tickets that are easy to lose</li>
-              <li>Manual compliance reporting with delays and errors</li>
-              <li>Hold periods tracked on paper or memory</li>
-              <li>Wrong prices causing margin loss</li>
-              <li>Multiple binders, notebooks, and spreadsheets</li>
+              <li data-i18n="comp-bad-li-1">Handwritten tickets that are easy to lose</li>
+              <li data-i18n="comp-bad-li-2">Manual compliance reporting with delays and errors</li>
+              <li data-i18n="comp-bad-li-3">Hold periods tracked on paper or memory</li>
+              <li data-i18n="comp-bad-li-4">Wrong prices causing margin loss</li>
+              <li data-i18n="comp-bad-li-5">Multiple binders, notebooks, and spreadsheets</li>
             </ul>
           </div>
           <div class="comparison-col good">
-            <div class="comparison-title">With ScrapLogs</div>
+            <div class="comparison-title" data-i18n="comp-good-title">With ScrapLogs</div>
             <ul>
-              <li>Every ticket digital, searchable, and stored</li>
-              <li>Reports generated automatically each morning</li>
-              <li>System-driven hold enforcement and payment release</li>
-              <li>Market prices applied consistently</li>
-              <li>One system, one screen, real-time visibility</li>
+              <li data-i18n="comp-good-li-1">Every ticket digital, searchable, and stored</li>
+              <li data-i18n="comp-good-li-2">Reports generated automatically each morning</li>
+              <li data-i18n="comp-good-li-3">System-driven hold enforcement and payment release</li>
+              <li data-i18n="comp-good-li-4">Market prices applied consistently</li>
+              <li data-i18n="comp-good-li-5">One system, one screen, real-time visibility</li>
             </ul>
           </div>
         </div>
@@ -379,23 +384,23 @@
     <section id="pricing" class="section pricing-section">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow orange">Simple, transparent pricing</p>
-          <h2>One plan. No hidden fees.</h2>
+          <p class="eyebrow orange" data-i18n="pricing-eyebrow">Simple, transparent pricing</p>
+          <h2 data-i18n="pricing-h2">One plan. No hidden fees.</h2>
         </div>
 
         <div class="pricing-grid">
           <article class="pricing-card">
-            <p class="plan-name">Month-to-month</p>
-            <p class="plan-price">$599<span>/mo</span></p>
-            <p class="plan-note">First month paid upfront = onboarding</p>
-            <p class="plan-meta">No long-term commitment. Cancel anytime.</p>
+            <p class="plan-name" data-i18n="plan-1-name">Month-to-month</p>
+            <p class="plan-price">$599<span data-i18n="per-mo">/mo</span></p>
+            <p class="plan-note" data-i18n="plan-1-note">First month paid upfront = onboarding</p>
+            <p class="plan-meta" data-i18n="plan-1-meta">No long-term commitment. Cancel anytime.</p>
           </article>
 
           <article class="pricing-card featured">
-            <p class="plan-name">Annual contract</p>
-            <p class="plan-price">$6,589<span>/yr</span></p>
-            <p class="plan-note">1 month free</p>
-            <p class="plan-meta">$549/mo effective - saves $599 over the year.</p>
+            <p class="plan-name" data-i18n="plan-2-name">Annual contract</p>
+            <p class="plan-price">$6,589<span data-i18n="per-yr">/yr</span></p>
+            <p class="plan-note" data-i18n="plan-2-note">1 month free</p>
+            <p class="plan-meta" data-i18n="plan-2-meta">$549/mo effective - saves $599 over the year.</p>
           </article>
         </div>
 
@@ -404,35 +409,35 @@
             <thead>
               <tr>
                 <th></th>
-                <th>Month-to-month</th>
-                <th>Annual contract</th>
+                <th data-i18n="table-h-1">Month-to-month</th>
+                <th data-i18n="table-h-2">Annual contract</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Monthly cost</td>
-                <td>$599/mo</td>
-                <td>$549/mo effective</td>
+                <td data-i18n="table-r1-label">Monthly cost</td>
+                <td data-i18n="table-r1-v1">$599/mo</td>
+                <td data-i18n="table-r1-v2">$549/mo effective</td>
               </tr>
               <tr>
-                <td>Annual total</td>
-                <td>$7,188/yr</td>
-                <td>$6,589/yr</td>
+                <td data-i18n="table-r2-label">Annual total</td>
+                <td data-i18n="table-r2-v1">$7,188/yr</td>
+                <td data-i18n="table-r2-v2">$6,589/yr</td>
               </tr>
               <tr>
-                <td>You save</td>
+                <td data-i18n="table-r3-label">You save</td>
                 <td>-</td>
                 <td>$599</td>
               </tr>
               <tr>
-                <td>Commitment</td>
-                <td>None</td>
-                <td>12 months</td>
+                <td data-i18n="table-r4-label">Commitment</td>
+                <td data-i18n="table-r4-v1">None</td>
+                <td data-i18n="table-r4-v2">12 months</td>
               </tr>
               <tr>
-                <td>Onboarding</td>
-                <td>First month upfront</td>
-                <td>First month upfront</td>
+                <td data-i18n="table-r5-label">Onboarding</td>
+                <td data-i18n="table-r5-v1">First month upfront</td>
+                <td data-i18n="table-r5-v2">First month upfront</td>
               </tr>
             </tbody>
           </table>
@@ -444,16 +449,16 @@
     <section id="contact" class="section contact-section">
       <div class="container contact-card">
         <div>
-          <p class="eyebrow orange">Contact</p>
-          <h2>Ready to go live in your yard?</h2>
-          <p>
+          <p class="eyebrow orange" data-i18n="contact-eyebrow">Contact</p>
+          <h2 data-i18n="contact-h2">Ready to go live in your yard?</h2>
+          <p data-i18n-html="contact-p">
             Contact <strong>Yosmar Hernandez</strong> to discuss a demo, rollout,
             or pricing questions.
           </p>
         </div>
         <div class="contact-actions">
           <a class="btn btn-primary" href="mailto:sales@scraplogs.com">sales@scraplogs.com</a>
-          <p class="contact-caption">Sales contact: Yosmar Hernandez</p>
+          <p class="contact-caption" data-i18n="contact-caption">Sales contact: Yosmar Hernandez</p>
         </div>
       </div>
     </section>
@@ -462,19 +467,365 @@
   <footer class="site-footer">
     <div class="container footer-wrap">
       <div class="footer-left">
-        <p>ScrapLogs — Cloud-hosted scrap yard management built for Florida.</p>
+        <p data-i18n="footer-tagline">ScrapLogs — Cloud-hosted scrap yard management built for Florida.</p>
         <div class="footer-links">
           <a href="mailto:sales@scraplogs.com">sales@scraplogs.com</a>
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/terms">Terms of Service</a>
+          <a href="/privacy" data-i18n="footer-privacy">Privacy Policy</a>
+          <a href="/terms" data-i18n="footer-terms">Terms of Service</a>
         </div>
       </div>
       <div class="footer-compliance">
-        <div class="footer-badge">Built for FL Chapter 538 — Part I &amp; Part II</div>
-        <div class="footer-badge-sub">Secondary Metals Recyclers &amp; Secondhand Dealers</div>
-        <p class="footer-fipa">Customer data protected under Florida Information Protection Act (FIPA). Breach notification SLA: 10 business days.</p>
+        <div class="footer-badge" data-i18n="footer-badge">Built for FL Chapter 538 — Part I &amp; Part II</div>
+        <div class="footer-badge-sub" data-i18n="footer-badge-sub">Secondary Metals Recyclers &amp; Secondhand Dealers</div>
+        <p class="footer-fipa" data-i18n="footer-fipa">Customer data protected under Florida Information Protection Act (FIPA). Breach notification SLA: 10 business days.</p>
       </div>
     </div>
   </footer>
+
+  <script>
+  (function () {
+    var current = 'en';
+
+    var t = {
+      en: {
+        'nav-features': 'Features',
+        'nav-pricing': 'Pricing',
+        'nav-contact': 'Contact',
+        'hero-eyebrow': 'Every purchase. On record.',
+        'hero-h1': 'Is your scrap yard fully protected?',
+        'hero-copy': 'Modern compliance management for Florida scrap yards - cloud-based, always on, and built to keep you ahead of regulators.',
+        'hero-btn-demo': 'Book a demo',
+        'hero-btn-pricing': 'See pricing',
+        'card-kicker': 'One plan. Everything included.',
+        'per-mo': '/mo',
+        'per-yr': '/yr',
+        'card-subline': 'No contract • Cancel anytime',
+        'card-li-1': 'Unlimited users',
+        'card-li-2': 'Unlimited tickets',
+        'card-li-3': 'Unlimited customers',
+        'card-li-4': 'FL compliance engine',
+        'card-li-5': '99.9% SLA',
+        'card-li-6': 'Hardware integrations',
+        'card-li-7': 'Priority support',
+        'risk-label': 'Florida Law — FL Chapter 538',
+        'risk-stat-1': 'Florida law requires every scrap yard to submit a transaction report to local law enforcement by <strong>10AM the next business day.</strong>',
+        'risk-stat-2': 'A single missed report = <strong>fines per occurrence.</strong> Missing seller records = <strong>forced closure.</strong>',
+        'risk-stat-3': 'ScrapLogs automates every deadline automatically — so you <strong>never face an audit unprepared.</strong>',
+        'risk-fine-label': 'Fine exposure:',
+        'risk-fine-amount': '$1,000/day — up to $500,000 per breach (FL FIPA)',
+        'shield-eyebrow': 'FL Chapter 538 — Built In',
+        'shield-h2': '11 Rules. Automatically Enforced. Zero Manual Work.',
+        'shield-subtitle': 'Every FL Chapter 538 requirement built into the workflow — not a checklist you manage yourself.',
+        'cc-1-h3': 'Record Retention',
+        'cc-1-p': 'All transaction records retained for 3 years automatically. Never manually archived or deleted.',
+        'cc-2-h3': 'Electronic Report to Law Enforcement',
+        'cc-2-p': 'Daily LE report auto-generated at 6AM. Transmitted before 10AM deadline. Price data excluded from LE version per statute.',
+        'cc-3-h3': 'Vehicle & Trailer Tag Required',
+        'cc-3-p': 'Vehicle make, model, license plate AND trailer tag captured on every ticket. Both fields required.',
+        'cc-4-h3': 'Hold Period Enforcement',
+        'cc-4-p': 'Restricted materials held automatically. Payment release blocked until hold clears. Copper: 7 days. Catalytic converters: 7 days. AC coils: 7 days. Utility wire: 5 days.',
+        'cc-5-h3': 'Cash Payment Cap ($1,000)',
+        'cc-5-p': 'Cash transactions over $1,000 are automatically blocked. System enforces check or ACH with statute error message.',
+        'cc-6-h3': 'Check Must Be Mailed to Street Address',
+        'cc-6-p': 'Restricted material payments by check trigger mandatory mail enforcement. PO Box addresses are rejected by the system.',
+        'cc-7-h3': 'Proof of Ownership for Restricted Metals',
+        'cc-7-p': 'Proof of ownership or authorization required before any restricted metal can be added to a ticket. 90-day validation enforced server-side for authorization letters.',
+        'cc-8-h3': 'Purchasing Hours (7AM–7PM)',
+        'cc-8-p': 'Ticket creation is blocked outside 7AM–7PM. System returns statute reference on rejection.',
+        'cc-9-h3': 'Seller Must Be 18 or Older',
+        'cc-9-p': 'Age validated from date of birth at customer creation. Ticket open blocked for minors with statute reference.',
+        'cc-10-h3': 'Seller Identification (4 Required Captures)',
+        'cc-10-p': 'ID scan, seller photo, fingerprint, and signed sworn statement all required. Ticket cannot be closed until all four are captured.',
+        'cc-11-h3': 'Distinguishing Features Required',
+        'cc-11-p': 'Physical description of seller is a required field. Customer record cannot be created without it.',
+        'shield-footer': '11 rules across 7 statute sections. All enforced server-side. No client-only workarounds.',
+        'audit-eyebrow': 'The Audit Test',
+        'audit-h2': 'What Happens When Law Enforcement Walks In?',
+        'audit-bad-header': 'Without ScrapLogs',
+        'audit-good-header': 'With ScrapLogs',
+        'audit-bad-li-1': 'Officer requests records from 60 days ago',
+        'audit-bad-li-2': 'Owner digs through paper binders and handwritten tickets',
+        'audit-bad-li-3': 'Two tickets missing thumbprints',
+        'audit-bad-li-4': 'One report filed 3 days late',
+        'audit-bad-li-5': 'Price paid visible on law enforcement copy (statute violation)',
+        'audit-bad-final': '$1,000/day fine exposure begins immediately',
+        'audit-good-li-1': 'Officer requests records from 60 days ago',
+        'audit-good-li-2': 'Admin pulls audit dashboard, filters by date range in seconds',
+        'audit-good-li-3': 'Every record: ID scan, photo, fingerprint, signature, sworn statement',
+        'audit-good-li-4': 'All reports auto-submitted before 10AM — zero late filings',
+        'audit-good-li-5': 'LE export automatically excludes price per FL §538.19(1)',
+        'audit-good-final': 'Zero violations. Zero exposure.',
+        'audit-cta-btn': 'See ScrapLogs in action → Book a Demo',
+        'security-eyebrow': 'Enterprise Infrastructure',
+        'security-h2': "Your Data. Your Vault. Nobody Else's.",
+        'security-subtitle': 'ScrapLogs is built on enterprise infrastructure with legal-grade data isolation.',
+        'sec-1-h3': 'Isolated Database Per Yard',
+        'sec-1-p': 'Every ScrapLogs customer gets a completely separate database. Your data is never in a shared table with another yard. Total isolation by design.',
+        'sec-2-h3': 'Encrypted at Rest and In Transit',
+        'sec-2-p': "All PII — driver's licenses, fingerprints, seller photos — encrypted at rest with AES-256. All traffic encrypted with TLS 1.3. No exceptions.",
+        'sec-3-h3': 'Hosted on Microsoft Azure',
+        'sec-3-p': 'Enterprise-grade cloud infrastructure. SOC 2 certified data centers. 99.9% uptime SLA. Automatic backups. No on-premise servers required.',
+        'sec-4-h3': '3-Year Retention, Built-In',
+        'sec-4-p': 'FL §538 requires records retained for 3 years. ScrapLogs enforces this automatically. Records are never deleted within the retention window. Audit-ready on demand.',
+        'social-eyebrow': 'Customer Stories',
+        'social-h2': 'Trusted by Florida Scrap Yards',
+        'testimonial-quote': '“Before ScrapLogs, I was spending 45 minutes every morning doing compliance reports by hand. Now it’s done before I get to the yard.”',
+        'testimonial-attr': '[Yard owner name] — [City, FL]',
+        'warning-h2': 'Still running your yard on paper?',
+        'warning-p': 'Handwritten tickets, spreadsheets, and manual logs leave too much room for missed records, late reports, pricing errors, and painful audits. ScrapLogs gives your team one live system instead of binders, notebooks, and guesswork.',
+        'features-eyebrow': 'What ScrapLogs delivers',
+        'features-h2': 'Everything your yard needs in one place',
+        'panel-1-h3': 'Modern control',
+        'panel-1-p': 'Replace paper tickets with a digital system built for scale yards. Every transaction is timestamped, searchable, and secure.',
+        'panel-2-h3': 'Full compliance, automatically',
+        'panel-2-p': 'Daily compliance reports, hold tracking, and seller verification are handled inside the workflow instead of after the fact.',
+        'panel-3-h3': 'Easy management, zero headaches',
+        'panel-3-p': 'No servers to maintain. No software to install. Works in the browser on desktop, tablet, or phone.',
+        'feat-1-h3': 'Digital scale tickets',
+        'feat-1-p': 'Open, weigh, close, and void tickets through the full lifecycle.',
+        'feat-2-h3': 'Automatic price engine',
+        'feat-2-p': 'COMEX and LME market-based pricing with manual override and daily refresh.',
+        'feat-3-h3': 'FL compliance reports',
+        'feat-3-p': 'Auto-generated daily reports with deadline awareness and overdue alerts.',
+        'feat-4-h3': 'Hold period enforcement',
+        'feat-4-p': 'Restricted materials are tracked by material with automatic payment release when holds clear.',
+        'feat-5-h3': 'Seller verification',
+        'feat-5-p': "Driver's license scan, photo capture, fingerprint, ID capture, and signature history.",
+        'feat-6-h3': 'Cash drawer management',
+        'feat-6-p': 'Handle open and close sessions, reconciliation, cash payments, and checks.',
+        'feat-7-h3': 'Hardware integrations',
+        'feat-7-p': "Supports scale, camera, driver's license scanner, fingerprint reader, and ESC/POS printers.",
+        'feat-8-h3': 'Reporting and analytics',
+        'feat-8-p': 'Track daily reports, commodity performance, and top customer activity.',
+        'comp-eyebrow': 'The difference is immediate',
+        'comp-h2': 'Stop patching operations together',
+        'comp-bad-title': 'Without ScrapLogs',
+        'comp-good-title': 'With ScrapLogs',
+        'comp-bad-li-1': 'Handwritten tickets that are easy to lose',
+        'comp-bad-li-2': 'Manual compliance reporting with delays and errors',
+        'comp-bad-li-3': 'Hold periods tracked on paper or memory',
+        'comp-bad-li-4': 'Wrong prices causing margin loss',
+        'comp-bad-li-5': 'Multiple binders, notebooks, and spreadsheets',
+        'comp-good-li-1': 'Every ticket digital, searchable, and stored',
+        'comp-good-li-2': 'Reports generated automatically each morning',
+        'comp-good-li-3': 'System-driven hold enforcement and payment release',
+        'comp-good-li-4': 'Market prices applied consistently',
+        'comp-good-li-5': 'One system, one screen, real-time visibility',
+        'pricing-eyebrow': 'Simple, transparent pricing',
+        'pricing-h2': 'One plan. No hidden fees.',
+        'plan-1-name': 'Month-to-month',
+        'plan-1-note': 'First month paid upfront = onboarding',
+        'plan-1-meta': 'No long-term commitment. Cancel anytime.',
+        'plan-2-name': 'Annual contract',
+        'plan-2-note': '1 month free',
+        'plan-2-meta': '$549/mo effective - saves $599 over the year.',
+        'table-h-1': 'Month-to-month',
+        'table-h-2': 'Annual contract',
+        'table-r1-label': 'Monthly cost',
+        'table-r1-v1': '$599/mo',
+        'table-r1-v2': '$549/mo effective',
+        'table-r2-label': 'Annual total',
+        'table-r2-v1': '$7,188/yr',
+        'table-r2-v2': '$6,589/yr',
+        'table-r3-label': 'You save',
+        'table-r4-label': 'Commitment',
+        'table-r4-v1': 'None',
+        'table-r4-v2': '12 months',
+        'table-r5-label': 'Onboarding',
+        'table-r5-v1': 'First month upfront',
+        'table-r5-v2': 'First month upfront',
+        'contact-eyebrow': 'Contact',
+        'contact-h2': 'Ready to go live in your yard?',
+        'contact-p': 'Contact <strong>Yosmar Hernandez</strong> to discuss a demo, rollout, or pricing questions.',
+        'contact-caption': 'Sales contact: Yosmar Hernandez',
+        'footer-tagline': 'ScrapLogs — Cloud-hosted scrap yard management built for Florida.',
+        'footer-privacy': 'Privacy Policy',
+        'footer-terms': 'Terms of Service',
+        'footer-badge': 'Built for FL Chapter 538 — Part I & Part II',
+        'footer-badge-sub': 'Secondary Metals Recyclers & Secondhand Dealers',
+        'footer-fipa': 'Customer data protected under Florida Information Protection Act (FIPA). Breach notification SLA: 10 business days.'
+      },
+      es: {
+        'nav-features': 'Funciones',
+        'nav-pricing': 'Precios',
+        'nav-contact': 'Contacto',
+        'hero-eyebrow': 'Cada compra. Registrada.',
+        'hero-h1': '¿Tu chatarrera está totalmente protegida?',
+        'hero-copy': 'Gestión de cumplimiento moderna para chatarrerías de Florida — en la nube, siempre activa y diseñada para mantenerte adelante de los reguladores.',
+        'hero-btn-demo': 'Reservar una demo',
+        'hero-btn-pricing': 'Ver precios',
+        'card-kicker': 'Un plan. Todo incluido.',
+        'per-mo': '/mes',
+        'per-yr': '/año',
+        'card-subline': 'Sin contrato • Cancela cuando quieras',
+        'card-li-1': 'Usuarios ilimitados',
+        'card-li-2': 'Tickets ilimitados',
+        'card-li-3': 'Clientes ilimitados',
+        'card-li-4': 'Motor de cumplimiento FL',
+        'card-li-5': 'SLA 99.9%',
+        'card-li-6': 'Integraciones de hardware',
+        'card-li-7': 'Soporte prioritario',
+        'risk-label': 'Ley de Florida — FL Capítulo 538',
+        'risk-stat-1': 'La ley de Florida exige que cada chatarrería presente un informe de transacciones a las autoridades locales antes de las <strong>10AM del siguiente día hábil.</strong>',
+        'risk-stat-2': 'Un solo informe omitido = <strong>multas por ocurrencia.</strong> Registros de vendedores faltantes = <strong>cierre forzado.</strong>',
+        'risk-stat-3': 'ScrapLogs automatiza cada fecha límite — para que <strong>nunca enfrentes una auditoría sin preparación.</strong>',
+        'risk-fine-label': 'Exposición a multas:',
+        'risk-fine-amount': '$1,000/día — hasta $500,000 por infracción (FL FIPA)',
+        'shield-eyebrow': 'FL Capítulo 538 — Integrado',
+        'shield-h2': '11 Reglas. Aplicadas Automáticamente. Cero Trabajo Manual.',
+        'shield-subtitle': 'Cada requisito del Capítulo 538 de FL integrado en el flujo de trabajo — no una lista que tú administras.',
+        'cc-1-h3': 'Retención de Registros',
+        'cc-1-p': 'Todos los registros de transacciones retenidos por 3 años automáticamente. Nunca archivados o eliminados manualmente.',
+        'cc-2-h3': 'Informe Electrónico a la Policía',
+        'cc-2-p': 'Informe diario generado automáticamente a las 6AM. Transmitido antes del límite de las 10AM. Datos de precio excluidos de la versión policial según el estatuto.',
+        'cc-3-h3': 'Placa de Vehículo y Remolque Requerida',
+        'cc-3-p': 'Marca, modelo, placa Y placa del remolque capturados en cada ticket. Ambos campos obligatorios.',
+        'cc-4-h3': 'Aplicación del Período de Retención',
+        'cc-4-p': 'Materiales restringidos retenidos automáticamente. Pago bloqueado hasta que se cumpla el período. Cobre: 7 días. Convertidores catalíticos: 7 días. Serpentines de A/C: 7 días. Cable de servicio público: 5 días.',
+        'cc-5-h3': 'Límite de Pago en Efectivo ($1,000)',
+        'cc-5-p': 'Transacciones en efectivo superiores a $1,000 son bloqueadas automáticamente. El sistema exige cheque o ACH con mensaje de error del estatuto.',
+        'cc-6-h3': 'El Cheque Debe Enviarse a Dirección Física',
+        'cc-6-p': 'Pagos por cheque de material restringido activan la obligación de envío por correo. Direcciones de casilla postal son rechazadas por el sistema.',
+        'cc-7-h3': 'Prueba de Propiedad para Metales Restringidos',
+        'cc-7-p': 'Se requiere prueba de propiedad o autorización antes de agregar cualquier metal restringido a un ticket. Validación de 90 días aplicada en servidor para cartas de autorización.',
+        'cc-8-h3': 'Horario de Compra (7AM–7PM)',
+        'cc-8-p': 'La creación de tickets está bloqueada fuera del horario 7AM–7PM. El sistema devuelve referencia del estatuto al rechazar.',
+        'cc-9-h3': 'El Vendedor Debe Tener 18 Años o Más',
+        'cc-9-p': 'Edad validada desde la fecha de nacimiento al crear el cliente. Apertura de ticket bloqueada para menores con referencia del estatuto.',
+        'cc-10-h3': 'Identificación del Vendedor (4 Capturas Requeridas)',
+        'cc-10-p': 'Escaneo de ID, foto del vendedor, huella digital y declaración jurada firmada son obligatorios. El ticket no puede cerrarse hasta que los cuatro sean capturados.',
+        'cc-11-h3': 'Características Distintivas Requeridas',
+        'cc-11-p': 'La descripción física del vendedor es un campo obligatorio. El registro del cliente no puede crearse sin ella.',
+        'shield-footer': '11 reglas en 7 secciones de estatuto. Todas aplicadas en el servidor. Sin soluciones solo del lado del cliente.',
+        'audit-eyebrow': 'La Prueba de Auditoría',
+        'audit-h2': '¿Qué Pasa Cuando la Policía Entra?',
+        'audit-bad-header': 'Sin ScrapLogs',
+        'audit-good-header': 'Con ScrapLogs',
+        'audit-bad-li-1': 'El oficial solicita registros de hace 60 días',
+        'audit-bad-li-2': 'El dueño busca en carpetas de papel y tickets escritos a mano',
+        'audit-bad-li-3': 'Dos tickets sin huellas digitales',
+        'audit-bad-li-4': 'Un informe presentado 3 días tarde',
+        'audit-bad-li-5': 'Precio pagado visible en la copia de la policía (violación del estatuto)',
+        'audit-bad-final': 'Exposición a multas de $1,000/día comienza de inmediato',
+        'audit-good-li-1': 'El oficial solicita registros de hace 60 días',
+        'audit-good-li-2': 'El administrador abre el panel de auditoría, filtra por fecha en segundos',
+        'audit-good-li-3': 'Cada registro: escaneo de ID, foto, huella, firma, declaración jurada',
+        'audit-good-li-4': 'Todos los informes enviados automáticamente antes de las 10AM — cero presentaciones tardías',
+        'audit-good-li-5': 'Exportación a policía excluye precio automáticamente según FL §538.19(1)',
+        'audit-good-final': 'Cero violaciones. Cero exposición.',
+        'audit-cta-btn': 'Ver ScrapLogs en acción → Reservar una Demo',
+        'security-eyebrow': 'Infraestructura Empresarial',
+        'security-h2': 'Tus Datos. Tu Bóveda. De Nadie Más.',
+        'security-subtitle': 'ScrapLogs está construido sobre infraestructura empresarial con aislamiento de datos de grado legal.',
+        'sec-1-h3': 'Base de Datos Aislada por Chatarrera',
+        'sec-1-p': 'Cada cliente de ScrapLogs obtiene una base de datos completamente separada. Tus datos nunca están en una tabla compartida con otra chatarrera. Aislamiento total por diseño.',
+        'sec-2-h3': 'Cifrado en Reposo y en Tránsito',
+        'sec-2-p': 'Toda la PII — licencias de conducir, huellas digitales, fotos de vendedores — cifrada en reposo con AES-256. Todo el tráfico cifrado con TLS 1.3. Sin excepciones.',
+        'sec-3-h3': 'Alojado en Microsoft Azure',
+        'sec-3-p': 'Infraestructura en la nube de nivel empresarial. Centros de datos certificados SOC 2. SLA de 99.9% de disponibilidad. Copias de seguridad automáticas. No se requieren servidores locales.',
+        'sec-4-h3': 'Retención de 3 Años, Integrada',
+        'sec-4-p': 'FL §538 exige la retención de registros por 3 años. ScrapLogs lo aplica automáticamente. Los registros nunca se eliminan dentro del período de retención. Listos para auditoría cuando se requiera.',
+        'social-eyebrow': 'Historias de Clientes',
+        'social-h2': 'La Confianza de las Chatarrerías de Florida',
+        'testimonial-quote': '“Antes de ScrapLogs, pasaba 45 minutos cada mañana haciendo informes de cumplimiento a mano. Ahora está listo antes de que llegue a la chatarrera.”',
+        'testimonial-attr': '[Nombre del dueño] — [Ciudad, FL]',
+        'warning-h2': '¿Todavía gestionas tu chatarrera en papel?',
+        'warning-p': 'Los tickets escritos a mano, hojas de cálculo y registros manuales dejan demasiado espacio para registros perdidos, informes tardíos, errores de precio y auditorías dolorosas. ScrapLogs le da a tu equipo un sistema en vivo en lugar de carpetas, libretas y suposiciones.',
+        'features-eyebrow': 'Lo que ScrapLogs ofrece',
+        'features-h2': 'Todo lo que tu chatarrera necesita en un solo lugar',
+        'panel-1-h3': 'Control moderno',
+        'panel-1-p': 'Reemplaza los tickets de papel con un sistema digital construido para chatarrerías. Cada transacción tiene marca de tiempo, es buscable y segura.',
+        'panel-2-h3': 'Cumplimiento completo, automáticamente',
+        'panel-2-p': 'Los informes diarios de cumplimiento, el seguimiento de retenciones y la verificación de vendedores se gestionan dentro del flujo de trabajo, no después.',
+        'panel-3-h3': 'Gestión fácil, sin dolores de cabeza',
+        'panel-3-p': 'Sin servidores que mantener. Sin software que instalar. Funciona en el navegador en escritorio, tableta o teléfono.',
+        'feat-1-h3': 'Tickets digitales de báscula',
+        'feat-1-p': 'Abre, pesa, cierra y anula tickets durante todo el ciclo de vida.',
+        'feat-2-h3': 'Motor de precios automático',
+        'feat-2-p': 'Precios basados en los mercados COMEX y LME con anulación manual y actualización diaria.',
+        'feat-3-h3': 'Informes de cumplimiento FL',
+        'feat-3-p': 'Informes diarios generados automáticamente con alertas de plazos y vencimientos.',
+        'feat-4-h3': 'Aplicación del período de retención',
+        'feat-4-p': 'Los materiales restringidos se rastrean por material con liberación automática de pago cuando vencen las retenciones.',
+        'feat-5-h3': 'Verificación de vendedores',
+        'feat-5-p': 'Escaneo de licencia de conducir, captura de foto, huella digital, captura de ID e historial de firmas.',
+        'feat-6-h3': 'Gestión de caja',
+        'feat-6-p': 'Maneja sesiones de apertura y cierre, conciliación, pagos en efectivo y cheques.',
+        'feat-7-h3': 'Integraciones de hardware',
+        'feat-7-p': 'Compatible con báscula, cámara, escáner de licencia, lector de huella digital e impresoras ESC/POS.',
+        'feat-8-h3': 'Reportes y analíticas',
+        'feat-8-p': 'Rastrea informes diarios, rendimiento de materias primas y actividad de los principales clientes.',
+        'comp-eyebrow': 'La diferencia es inmediata',
+        'comp-h2': 'Deja de parchear las operaciones',
+        'comp-bad-title': 'Sin ScrapLogs',
+        'comp-good-title': 'Con ScrapLogs',
+        'comp-bad-li-1': 'Tickets escritos a mano que se pierden fácilmente',
+        'comp-bad-li-2': 'Informes de cumplimiento manuales con retrasos y errores',
+        'comp-bad-li-3': 'Períodos de retención rastreados en papel o de memoria',
+        'comp-bad-li-4': 'Precios incorrectos que causan pérdida de margen',
+        'comp-bad-li-5': 'Múltiples carpetas, libretas y hojas de cálculo',
+        'comp-good-li-1': 'Cada ticket digital, buscable y almacenado',
+        'comp-good-li-2': 'Informes generados automáticamente cada mañana',
+        'comp-good-li-3': 'Aplicación de retenciones y liberación de pagos gestionada por el sistema',
+        'comp-good-li-4': 'Precios de mercado aplicados de forma consistente',
+        'comp-good-li-5': 'Un sistema, una pantalla, visibilidad en tiempo real',
+        'pricing-eyebrow': 'Precios simples y transparentes',
+        'pricing-h2': 'Un plan. Sin tarifas ocultas.',
+        'plan-1-name': 'Mes a mes',
+        'plan-1-note': 'Primer mes pagado por adelantado = incorporación',
+        'plan-1-meta': 'Sin compromiso a largo plazo. Cancela cuando quieras.',
+        'plan-2-name': 'Contrato anual',
+        'plan-2-note': '1 mes gratis',
+        'plan-2-meta': '$549/mes efectivo — ahorra $599 en el año.',
+        'table-h-1': 'Mes a mes',
+        'table-h-2': 'Contrato anual',
+        'table-r1-label': 'Costo mensual',
+        'table-r1-v1': '$599/mes',
+        'table-r1-v2': '$549/mes efectivo',
+        'table-r2-label': 'Total anual',
+        'table-r2-v1': '$7,188/año',
+        'table-r2-v2': '$6,589/año',
+        'table-r3-label': 'Ahorras',
+        'table-r4-label': 'Compromiso',
+        'table-r4-v1': 'Ninguno',
+        'table-r4-v2': '12 meses',
+        'table-r5-label': 'Incorporación',
+        'table-r5-v1': 'Primer mes por adelantado',
+        'table-r5-v2': 'Primer mes por adelantado',
+        'contact-eyebrow': 'Contacto',
+        'contact-h2': '¿Listo para activarlo en tu chatarrera?',
+        'contact-p': 'Contacta a <strong>Yosmar Hernandez</strong> para hablar de una demo, implementación o preguntas sobre precios.',
+        'contact-caption': 'Contacto de ventas: Yosmar Hernandez',
+        'footer-tagline': 'ScrapLogs — Gestión de chatarrerías en la nube, diseñada para Florida.',
+        'footer-privacy': 'Política de Privacidad',
+        'footer-terms': 'Términos de Servicio',
+        'footer-badge': 'Diseñado para FL Capítulo 538 — Parte I y Parte II',
+        'footer-badge-sub': 'Recicladores de Metales Secundarios y Comerciantes de Segunda Mano',
+        'footer-fipa': 'Datos del cliente protegidos bajo la Ley de Protección de Información de Florida (FIPA). SLA de notificación de brechas: 10 días hábiles.'
+      }
+    };
+
+    function applyLang(lang) {
+      current = lang;
+      document.documentElement.lang = lang;
+      document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+      document.getElementById('lang-es').classList.toggle('active', lang === 'es');
+
+      document.querySelectorAll('[data-i18n]').forEach(function (el) {
+        var key = el.getAttribute('data-i18n');
+        if (t[lang][key] !== undefined) el.textContent = t[lang][key];
+      });
+
+      document.querySelectorAll('[data-i18n-html]').forEach(function (el) {
+        var key = el.getAttribute('data-i18n-html');
+        if (t[lang][key] !== undefined) el.innerHTML = t[lang][key];
+      });
+    }
+
+    document.getElementById('lang-toggle').addEventListener('click', function () {
+      applyLang(current === 'en' ? 'es' : 'en');
+    });
+  }());
+  </script>
 </body>
 </html>
